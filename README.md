@@ -76,3 +76,13 @@ cd build
 make
 ./../../bin_x64/Release/vk_raytrace_app
 ```
+
+### Running [vk_mini_path_tracer](https://github.com/nvpro-samples/vk_mini_path_tracer)
+```
+git clone https://github.com/nvpro-samples/vk_mini_path_tracer.git
+cd vk_mini_path_tracer
+cmake -DVK_ENABLE_BETA_EXTENSIONS=OFF -S . -B build/
+cd build
+make
+./../../bin_x64/Release/vk_mini_path_tracer_app
+```
