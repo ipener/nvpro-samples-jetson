@@ -1,0 +1,13 @@
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 509fa33..2b8cb70 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -59,7 +59,7 @@ _add_package_VulkanSDK()
+ _add_package_ImGUI()
+ _add_package_FreeImage()
+ # Add the following for GPU load and memory
+-_add_package_NVML()
++#_add_package_NVML()
+ # This should be added after all packages
+ _add_nvpro_core_lib()
+ 

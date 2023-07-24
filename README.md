@@ -65,3 +65,14 @@ cd ..
 ```
 
 >`-DVK_ENABLE_BETA_EXTENSIONS=OFF` disables some unsupported extensions like `VK_KHR_video_queue`.
+
+### Running [vk_raytrace](https://github.com/nvpro-samples/vk_raytrace)
+```
+git clone https://github.com/nvpro-samples/vk_raytrace.git
+cd vk_raytrace
+git apply ../vk_raytrace.patch
+cmake -DVK_ENABLE_BETA_EXTENSIONS=OFF -S . -B build/
+cd build
+make
+./../../bin_x64/Release/vk_raytrace_app
+```
