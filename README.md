@@ -86,3 +86,13 @@ cd build
 make
 ./../../bin_x64/Release/vk_mini_path_tracer_app
 ```
+
+### Running [vk_raytracing_tutorial_KHR](https://github.com/nvpro-samples/vk_raytracing_tutorial_KHR)
+```
+git clone https://github.com/nvpro-samples/vk_raytracing_tutorial_KHR.git
+cd vk_raytracing_tutorial_KHR
+cmake -DVK_ENABLE_BETA_EXTENSIONS=OFF -S . -B build/
+cd build
+make
+./../../bin_x64/Release/vk_ray_tracing_advanced_compilation_KHR_app
+```
